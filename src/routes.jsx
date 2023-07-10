@@ -2,13 +2,6 @@ import { Home, Products, Recipes } from "@/pages";
 import {SiHungryjacks } from 'react-icons/si'
 import {ImHome} from 'react-icons/im'
 import {VscLibrary} from 'react-icons/vsc'
-import {
-  HomeIcon,
-  UserCircleIcon,
-  ArrowRightOnRectangleIcon,
-  UserPlusIcon,
-  DocumentTextIcon,
-} from "@heroicons/react/24/solid";
 
 export const routes = [
   {

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Avatar, Typography, Button, IconButton } from "@material-tailwind/react";
-import { MapPinIcon } from "@heroicons/react/24/solid";
+import {Typography} from "@material-tailwind/react";
 import { Footer } from "@/widgets/layout";
 import { TeamCard } from "../widgets/cards";
 import { teamData } from "../data";
@@ -19,7 +18,7 @@ export function Recipes() {
     .filter((item) =>
       item.name.toLowerCase().includes(searchValue.toLowerCase())
     )
-    .slice(5, 16);
+    .slice(1, 16);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
